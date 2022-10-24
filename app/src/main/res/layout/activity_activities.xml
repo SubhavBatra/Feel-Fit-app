@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gymbackg1"
+    tools:context=".Activities">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="274dp"
+        android:layout_height="112dp"
+        app:layout_constraintBottom_toTopOf="@+id/workoutBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gymlogo" />
+
+    <Button
+        android:id="@+id/workoutBtn"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="Workout and gym"
+        app:layout_constraintBottom_toTopOf="@+id/aerobicsBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <Button
+        android:id="@+id/aerobicsBtn"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="aerobics"
+        app:layout_constraintBottom_toTopOf="@+id/poweryogaBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/workoutBtn" />
+
+    <Button
+        android:id="@+id/poweryogaBtn"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="power yoga"
+        app:layout_constraintBottom_toTopOf="@+id/zumbaBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aerobicsBtn" />
+
+    <Button
+        android:id="@+id/zumbaBtn"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="zumba"
+        app:layout_constraintBottom_toTopOf="@+id/kickboxingbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/poweryogaBtn" />
+
+    <Button
+        android:id="@+id/kickboxingbtn"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="kickboxing"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zumbaBtn" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

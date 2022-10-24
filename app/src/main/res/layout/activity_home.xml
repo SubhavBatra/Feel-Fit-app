@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gymbackg1"
+    android:visibility="visible"
+    tools:context=".HomeActivity">
+
+
+    <Button
+        android:id="@+id/mapbutton"
+        android:layout_width="81dp"
+        android:layout_height="60dp"
+        app:backgroundTint="@android:color/holo_blue_dark"
+        app:icon="@drawable/ic_map"
+        app:iconSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="255dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gymlogo" />
+
+    <Button
+        android:id="@+id/photogallerybtn"
+        android:layout_width="159dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="88dp"
+        android:text="PHOTOGALLERY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activitiesbtn" />
+
+    <Button
+        android:id="@+id/activitiesbtn"
+        android:layout_width="159dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="28dp"
+        android:text="ACTIVITIES"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/covidguidebtn"
+        android:layout_width="159dp"
+        android:layout_height="79dp"
+        android:text="GYM RULES AND REGULATIONS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photogallerybtn"
+        app:layout_constraintVertical_bias="0.405" />
+
+    <Button
+        android:id="@+id/contactbtn"
+        android:layout_width="107dp"
+        android:layout_height="58dp"
+        android:text="CONTACT US"
+        app:backgroundTint="@android:color/holo_blue_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.969" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

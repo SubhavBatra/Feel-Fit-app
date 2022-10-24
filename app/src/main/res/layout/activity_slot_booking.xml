@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gymbackg1"
+    tools:context=".SlotBooking">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/rgLanguages">
+
+        <RadioButton
+            android:id="@+id/radio_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radio_selector"
+            android:elevation="4dp"
+
+            android:text="6:00-8:00"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/radio_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radio_selector"
+            android:elevation="4dp"
+
+            android:text="8:00-10:00"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/radio_three"
+            android:layout_width="243dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radio_selector"
+            android:elevation="4dp"
+
+            android:text="16:00-18:00"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/radio_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radio_selector"
+            android:elevation="4dp"
+
+            android:text="18:00-20:00"
+            android:textSize="30sp" />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/text_view_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rgLanguages"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Your selection: "
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_selected"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="book" />
+</RelativeLayout>

@@ -1,0 +1,2 @@
+rootProject.name = "loginsql"
+include ':app'
